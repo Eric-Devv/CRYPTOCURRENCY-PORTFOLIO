@@ -1,22 +1,21 @@
 body {
     background-color: #f5f5f5;
-    /* Light gray background */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* Set minimum height of the body to full viewport height */
+    
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     flex: 1;
-    /* Allow container to grow to fill remaining space */
+ 
 }
 
 h1 {
     color: #343a40;
-    /* Dark gray heading color */
+   
 }
 
 .input-group {
@@ -32,11 +31,8 @@ h1 {
 .table td {
     text-align: center;
     white-space: nowrap;
-    /* Prevent text wrapping in cells */
     overflow: hidden;
-    /* Hide overflowing content */
     text-overflow: ellipsis;
-    /* Display ellipsis (...) for overflowed content */
     padding: 8px;
     text-align: center;
     border-bottom: 1px solid #ddd;
@@ -44,75 +40,64 @@ h1 {
 
 .table th {
     background-color: #343a40;
-    /* Dark gray background for table headers */
     color: #ffffff;
-    /* White text color for table headers */
 }
 
 .table th:first-child,
 .table td:first-child {
     font-weight: bold;
-    /* Bold font weight for first column */
 }
 
 .table th:not(:first-child),
 .table td:not(:first-child) {
     font-weight: normal;
-    /* Normal font weight for other columns */
+    
 }
 
 .table tbody tr:hover {
     background-color: #f8f9fa;
-    /* Light gray background on hover */
     cursor: pointer;
 }
 
 .crypto-logo {
     width: 30px;
-    /* Adjust the width of the coin logo */
     height: 30px;
-    /* Adjust the height of the coin logo */
+    
 }
 
 .btn-primary {
     background-color: #6c757d;
-    /* Muted gray button color */
     border-color: #6c757d;
 }
 
 .btn-primary:hover {
     background-color: #5a6268;
-    /* Darker gray on hover */
     border-color: #5a6268;
 }
 
 footer {
     background-color: #343a40;
-    /* Dark gray background for footer */
     color: #ffffff;
-    /* White text color for footer */
     text-align: center;
     margin-top: auto;
-    /* Push the footer to the bottom */
+   
 }
 
 header h1 {
     color: #ffffff;
-    /* Set heading color to white */
 }
 
-/* Responsive styles for small screens */
+
 @media only screen and (max-width: 600px) {
 
     .table th,
     .table td {
         font-size: 12px;
-        /* Decrease font size for small screens */
         padding: 5px;
     }
 
     header h1 {
         font-size: 24px;
-        /* Adjust font size for small screens */
+        
     }
 }
